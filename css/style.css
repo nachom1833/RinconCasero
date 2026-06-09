@@ -227,6 +227,10 @@ strong {
     height: 44px;
 }
 
+.footer-brand .logo-svg path {
+    fill: #FAF8F5 !important;
+}
+
 @media (max-width: 768px) {
     .footer-brand .logo-svg {
         height: 36px;

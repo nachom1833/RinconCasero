@@ -5,32 +5,32 @@ const PRODUCTS = {
     "chipa": {
         name: "Chipa Tradicional de Queso",
         basePrice: 450,
-        allowedStates: ["Congelado", "Precocido", "Cocido"]
+        allowedStates: ["Congelado y Crudo", "Cocido"]
     },
     "pan-casero": {
         name: "Pan Casero Rústico",
         basePrice: 1200,
-        allowedStates: ["Congelado", "Precocido", "Cocido"]
+        allowedStates: ["Congelado y Cocido"]
     },
     "pan-semillas": {
         name: "Pan Multisemillas Premium",
         basePrice: 1400,
-        allowedStates: ["Congelado", "Precocido", "Cocido"]
+        allowedStates: ["Congelado y Crudo", "Cocido"]
     },
     "cookies": {
         name: "Cookies Americanas con Chips",
         basePrice: 350,
-        allowedStates: ["Congelado", "Cocido"] // Cookies don't have "Precocido"
+        allowedStates: ["Congelado y Crudo", "Cocido"] // Cookies don't have "Precocido"
     },
     "scones": {
         name: "Scones Artesanales",
         basePrice: 400,
-        allowedStates: ["Congelado", "Cocido"] // Scones don't have "Precocido"
+        allowedStates: ["Congelado y Crudo", "Cocido"] // Scones don't have "Precocido"
     }
 };
 
 // Target WhatsApp phone number (Default placeholder)
-const WHATSAPP_PHONE = "5491133334444";
+const WHATSAPP_PHONE = "+5491136281564";
 
 // 2. Global state references
 const productSelect = document.getElementById("form-producto");
