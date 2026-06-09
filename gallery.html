@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería de Imágenes de WhatsApp - Rincón Casero</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            background-color: #f0ede9;
+            color: #2b2520;
+            padding: 40px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: #fff;
+            border: 1px solid #d3c7b9;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 15px;
+        }
+        .card img {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            border-radius: 4px;
+            border: 1px solid #eee;
+        }
+        .info {
+            margin-top: 15px;
+            text-align: center;
+            font-size: 14px;
+            word-break: break-all;
+        }
+        .name {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .meta {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <h1>Galería de Recursos Visuales - Rincón Casero</h1>
+    <p style="text-align: center; margin-bottom: 40px;">Esta página muestra los nuevos recursos visuales oficiales (PNG/JPEG) que han sido integrados en la plataforma.</p>
+    
+    <div class="grid">
+        <div class="card">
+            <img src="img/logo.jpeg" alt="Logo de Rincón Casero">
+            <div class="info">
+                <div class="name">logo.jpeg</div>
+                <div class="meta">Uso: Logo oficial de la marca</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Pan-Blanco_Horizontal.png" alt="Pan Blanco Horizontal / Banner Hero">
+            <div class="info">
+                <div class="name">Pan-Blanco_Horizontal.png</div>
+                <div class="meta">Uso: Banner principal / Hero section</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Chipa.png" alt="Chipa de Queso">
+            <div class="info">
+                <div class="name">Chipa.png</div>
+                <div class="meta">Uso: Producto "Chipa Tradicional"</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Pan-Blanco.png" alt="Pan Blanco Rústico">
+            <div class="info">
+                <div class="name">Pan-Blanco.png</div>
+                <div class="meta">Uso: Producto "Pan Casero Rústico"</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Pan_con_Semillas.png" alt="Pan con Semillas Premium">
+            <div class="info">
+                <div class="name">Pan_con_Semillas.png</div>
+                <div class="meta">Uso: Producto "Pan Multisemillas"</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Cookies.png" alt="Cookies de Chocolate">
+            <div class="info">
+                <div class="name">Cookies.png</div>
+                <div class="meta">Uso: Producto "Cookies con Chips"</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Scones.png" alt="Scones Artesanales">
+            <div class="info">
+                <div class="name">Scones.png</div>
+                <div class="meta">Uso: Producto "Scones Artesanales"</div>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/Pan_con_toppings.png" alt="Pan con Toppings / Decoración">
+            <div class="info">
+                <div class="name">Pan_con_toppings.png</div>
+                <div class="meta">Uso: Recurso decorativo o galería</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
