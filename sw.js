@@ -7,6 +7,7 @@ const STATIC_ASSETS = [
   'img/Logo.webp',
   'img/Pan-Blanco_Horizontal.webp',
   'img/Pan-Blanco_Horizontal-600.webp',
+  'img/Pan-Blanco_Horizontal-800.webp',
   'img/Chipa.webp',
   'img/Chipa-400.webp',
   'img/Pan-Blanco.webp',
