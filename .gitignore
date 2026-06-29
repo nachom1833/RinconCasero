@@ -1,0 +1,4 @@
+node_modules/
+img/original_png/
+.DS_Store
+thumbs.db

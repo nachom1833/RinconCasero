@@ -1,0 +1,9 @@
+# robots.txt for https://www.rinconcasero.com.ar/
+User-agent: *
+Allow: /
+
+# LLM Context Location (https://llmstxt.org)
+# llms.txt provides structured context for AI models: https://www.rinconcasero.com.ar/llms.txt
+
+# Sitemap Location
+Sitemap: https://www.rinconcasero.com.ar/sitemap.xml
