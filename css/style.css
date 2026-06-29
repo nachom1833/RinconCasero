@@ -8,10 +8,10 @@
     --color-surface: #FFFFFF;          /* Pure White */
     --color-text-main: #23201D;         /* Organic Charcoal / Dark Brown */
     --color-text-muted: #6B6156;       /* Warm Gray for paragraphs */
-    --color-primary: #A37343;          /* Warm Wheat / Gold Bronze */
-    --color-primary-hover: #865D34;    /* Darker Bronze */
+    --color-primary: #936232;          /* Warm Wheat / Gold Bronze - darkened for contrast */
+    --color-primary-hover: #7A522A;    /* Darker Bronze */
     --color-primary-light: #F6EEE5;    /* Very soft wheat tint */
-    --color-accent: #C45135;           /* Terracotta Accent */
+    --color-accent: #B84328;           /* Terracotta Accent - darkened for contrast */
     --color-accent-light: #FCEBE7;     /* Soft Terracotta tint */
     --color-whatsapp: #25D366;         /* WhatsApp green */
     --color-whatsapp-hover: #20BA56;   /* Darker WhatsApp green */
@@ -953,7 +953,7 @@ strong {
 
 .footer-desc {
     font-size: 0.9rem;
-    color: #9C9184;
+    color: #A3978B;
     margin-bottom: 1.5rem;
     line-height: 1.5;
 }
@@ -964,7 +964,7 @@ strong {
     line-height: 1.4;
 }
 
-.footer-links h4 {
+.footer-links h3 {
     font-family: var(--font-sans);
     font-size: 0.9rem;
     font-weight: 700;
@@ -995,7 +995,7 @@ strong {
 
 .footer-bottom {
     font-size: 0.8rem;
-    color: #7D7266;
+    color: #A3978B;
 }
 
 /* --- Mobile Navigation Dropdown & Responsiveness --- */
