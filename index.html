@@ -41,6 +41,12 @@
     <!-- Custom Stylesheet (Preloaded to prevent render-blocking delay) -->
     <link rel="preload" as="style" href="css/style.css">
     <link rel="stylesheet" href="css/style.css">
+    <!-- Preload LCP Hero Image (Responsive sizes) -->
+    <link rel="preload" fetchpriority="high" as="image"
+        href="img/Pan-Blanco_Horizontal.webp"
+        imagesrcset="img/Pan-Blanco_Horizontal-600.webp 600w, img/Pan-Blanco_Horizontal.webp 1200w"
+        imagesizes="(max-width: 768px) 100vw, 600px"
+        type="image/webp">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
