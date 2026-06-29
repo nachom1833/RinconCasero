@@ -895,7 +895,7 @@ strong {
 /* Override standard button for WhatsApp CTA */
 .final-cta-buttons .btn {
     background-color: var(--color-whatsapp);
-    color: #FFFFFF;
+    color: var(--color-text-main); /* Changed to dark brown for high contrast on green */
     border-color: transparent;
     font-size: 1rem;
     padding: 16px 36px;
@@ -958,6 +958,10 @@ strong {
     line-height: 1.5;
 }
 
+.footer p {
+    color: #A3978B;
+}
+
 .legal-disclaimer {
     font-size: 0.75rem;
     color: #7D7266;
@@ -996,6 +1000,11 @@ strong {
 .footer-bottom {
     font-size: 0.8rem;
     color: #A3978B;
+}
+
+.footer-bottom p {
+    color: #A3978B;
+    margin-bottom: 0;
 }
 
 /* --- Mobile Navigation Dropdown & Responsiveness --- */
